@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(32, 26, 26);
+    color: white;
+    font-family: helvetica;
+    margin: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 1%;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    margin:10px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #F3950D;
+    border-radius: 5px;
+  }
+  .gallery{
+    margin-left:4.5%; 
+    margin-right:auto;
+    margin-bottom: 50px;
+    position:relative;
+    max-width:1440px;
+    padding: 10px;
+}
+img{
+    margin: 20px;
+    width: 28%;
+    height:240px;
+    border-radius: 12px;
+    object-fit:cover;
+}

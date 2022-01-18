@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(32, 26, 26);
+    color: white;
+    font-family: helvetica;
+    margin: 0;
+}
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin-top : 30px;
+    color: white; 
+    font-size: 17px;
+}
+#central {
+    width: 50%;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#F3950D;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #332f2f;
+    border-radius: 8px;
+    border:none;
+}
+
+#login input {
+    font-size: 95%;
+    color: #303335;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+#login button {
+    font-size: 110%;
+    color:#ffffff;
+    width: 100%;
+    height: 34px;
+    border: none;
+    background-color: #F3950D;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+#login button:hover {
+    height: 36px;
+    color:#f7f4f4;
+    margin-top: 28px;
+    font-size: 112%;
+
+}
+
+.pie-form {
+    font-size: 80%;
+    text-align: center;    
+    margin-top: 35px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.pie-form a:hover {
+    color: #F3950D;
+}
+
+

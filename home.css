@@ -1,0 +1,58 @@
+body{
+    color: rgb(1, 0, 31);
+    font-family: roboto;
+    font-size: 20px;
+}
+.workCount{
+    display:flex;
+    flex-grow: row;
+    margin-left: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.workCount p{
+    padding: 10px;
+    
+}
+.boton{
+    background-color: rgb(49, 190, 67);
+    border: none;
+    border-radius: 30px;
+    padding :10px 20px;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.boton:hover{
+    font-size: 20.5px; border-radius: 35px;
+    cursor:pointer;
+}
+.formstart{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;    
+}
+.preloader {
+    width: 70px;
+    height: 70px;
+    border: 10px solid #eee;
+    border-top: 10px solid #666;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
